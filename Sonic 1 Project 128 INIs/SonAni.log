@@ -1,0 +1,2 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at SonAni.MainForm.backgroundLevelLoader_DoWork(Object sender, DoWorkEventArgs e) in E:\AutoBuild\SonLVL\SonAni\MainForm.cs:line 192

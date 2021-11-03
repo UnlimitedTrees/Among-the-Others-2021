@@ -1,0 +1,176 @@
+Operating system: Microsoft Windows NT 6.2.9200.0
+Opening INI file "C:\Users\bbrod_000\Desktop\Sonic Hacking Stuff\Sonic diassemblies\AmongTheOthersDisasm\Sonic 1 Two-Eight\Sonic 1 Project 128 INIs\SonLVL.ini"...
+Game type is S1.
+Loading Marble Zone Act 3...
+Loading 16x16 blocks from file "../map16/MZ.bin", using compression Enigma...
+Loading 8x8 tiles from file "../artnem/8x8mz.bin", using compression Nemesis...
+Loading 128x128 chunks from file "../map256/MZ.bin", using compression Kosinski...
+Loading layout from file "../levels/mz3.bin", using compression Uncompressed...
+Loading layout from file "../levels/mz1.bin", using compression Uncompressed...
+Loading layout from file "../levels/mz2.bin", using compression Uncompressed...
+Loading palette file "../pallet/sonic.bin"...
+Source: 0 Destination: 0 Length: 16
+Loading palette file "../pallet/mz.bin"...
+Source: 0 Destination: 16 Length: 48
+Loading object definition file "obj.ini".
+Loading object definition file "obj128.ini".
+Loading object definition file "objMZ.ini".
+Loading ObjectDefinition type S12005ObjectDefinitions.Common.Ring from "Common\Ring.cs"...
+Compiling code file...
+Loading ObjectDefinition type S12005ObjectDefinitions.Common.InvisibleBlock from "Common\InvisibleBlock.cs"...
+Compiling code file...
+Loading ObjectDefinition type S12005ObjectDefinitions.Common.PathSwapper from "Common\PathSwapper.cs"...
+Compiling code file...
+Compile failed.
+Errors:
+c:\Users\bbrod_000\Desktop\Sonic Hacking Stuff\Sonic diassemblies\AmongTheOthersDisasm\Sonic 1 Two-Eight\Sonic 1 Project 128 INIs\Common\Ring.cs(68,35) : error CS0115: 'S12005ObjectDefinitions.Common.Ring.GetBounds(SonicRetro.SonLVL.API.ObjectEntry, System.Drawing.Point)': no suitable method found to override
+
+Compile failed.
+Errors:
+c:\Users\bbrod_000\Desktop\Sonic Hacking Stuff\Sonic diassemblies\AmongTheOthersDisasm\Sonic 1 Two-Eight\Sonic 1 Project 128 INIs\Common\InvisibleBlock.cs(54,35) : error CS0115: 'S12005ObjectDefinitions.Common.InvisibleBlock.GetBounds(SonicRetro.SonLVL.API.ObjectEntry, System.Drawing.Point)': no suitable method found to override
+
+Compile failed.
+Errors:
+c:\Users\bbrod_000\Desktop\Sonic Hacking Stuff\Sonic diassemblies\AmongTheOthersDisasm\Sonic 1 Two-Eight\Sonic 1 Project 128 INIs\Common\PathSwapper.cs(83,35) : error CS0115: 'S12005ObjectDefinitions.Common.PathSwapper.GetBounds(SonicRetro.SonLVL.API.ObjectEntry, System.Drawing.Point)': no suitable method found to override
+
+Loading objects from file "../objpos/mz3.bin", using compression Uncompressed...
+Drawing block bitmaps...
+Drawing chunk bitmaps...
+Level loaded in 7.5638283 second(s).
+Load completed.
+Loading Marble Zone Act 1...
+Loading 16x16 blocks from file "../map16/MZ.bin", using compression Enigma...
+Loading layout from file "../levels/mz1.bin", using compression Uncompressed...
+Loading 128x128 chunks from file "../map256/MZ.bin", using compression Kosinski...
+Loading 8x8 tiles from file "../artnem/8x8mz.bin", using compression Nemesis...
+Loading palette file "../pallet/sonic.bin"...
+Source: 0 Destination: 0 Length: 16
+Loading palette file "../pallet/mz.bin"...
+Source: 0 Destination: 16 Length: 48
+Loading layout from file "../levels/mz2.bin", using compression Uncompressed...
+Loading layout from file "../levels/mz3.bin", using compression Uncompressed...
+Loading object definition file "obj.ini".
+Loading object definition file "obj128.ini".
+Loading object definition file "objMZ.ini".
+Loading ObjectDefinition type S12005ObjectDefinitions.Common.Ring from "Common\Ring.cs"...
+Compiling code file...
+Loading ObjectDefinition type S12005ObjectDefinitions.Common.InvisibleBlock from "Common\InvisibleBlock.cs"...
+Compiling code file...
+Loading ObjectDefinition type S12005ObjectDefinitions.Common.PathSwapper from "Common\PathSwapper.cs"...
+Compiling code file...
+Compile failed.
+Errors:
+c:\Users\bbrod_000\Desktop\Sonic Hacking Stuff\Sonic diassemblies\AmongTheOthersDisasm\Sonic 1 Two-Eight\Sonic 1 Project 128 INIs\Common\InvisibleBlock.cs(54,35) : error CS0115: 'S12005ObjectDefinitions.Common.InvisibleBlock.GetBounds(SonicRetro.SonLVL.API.ObjectEntry, System.Drawing.Point)': no suitable method found to override
+
+Compile failed.
+Errors:
+c:\Users\bbrod_000\Desktop\Sonic Hacking Stuff\Sonic diassemblies\AmongTheOthersDisasm\Sonic 1 Two-Eight\Sonic 1 Project 128 INIs\Common\PathSwapper.cs(83,35) : error CS0115: 'S12005ObjectDefinitions.Common.PathSwapper.GetBounds(SonicRetro.SonLVL.API.ObjectEntry, System.Drawing.Point)': no suitable method found to override
+
+Compile failed.
+Errors:
+c:\Users\bbrod_000\Desktop\Sonic Hacking Stuff\Sonic diassemblies\AmongTheOthersDisasm\Sonic 1 Two-Eight\Sonic 1 Project 128 INIs\Common\Ring.cs(68,35) : error CS0115: 'S12005ObjectDefinitions.Common.Ring.GetBounds(SonicRetro.SonLVL.API.ObjectEntry, System.Drawing.Point)': no suitable method found to override
+
+Loading objects from file "../objpos/mz1.bin", using compression Uncompressed...
+Drawing block bitmaps...
+Drawing chunk bitmaps...
+Level loaded in 5.849694 second(s).
+Load completed.
+System.ArgumentOutOfRangeException: Value of '74' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at SonicRetro.SonLVL.GUI.MainForm.ChunkSelector_SelectedIndexChanged(Object sender, EventArgs e) in E:\AutoBuild\SonLVL\SonLVL\MainForm.cs:line 3028
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at SonicRetro.SonLVL.API.TileList.set_SelectedIndex(Int32 value) in E:\AutoBuild\SonLVL\SonLVLAPI\TileList.cs:line 24
+   at SonicRetro.SonLVL.GUI.MainForm.InsertChunk() in E:\AutoBuild\SonLVL\SonLVL\MainForm.cs:line 4656
+   at SonicRetro.SonLVL.GUI.MainForm.insertAfterToolStripMenuItem_Click(Object sender, EventArgs e) in E:\AutoBuild\SonLVL\SonLVL\MainForm.cs:line 5095
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.ArgumentOutOfRangeException: Value of '74' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at SonicRetro.SonLVL.GUI.MainForm.ChunkSelector_SelectedIndexChanged(Object sender, EventArgs e) in E:\AutoBuild\SonLVL\SonLVL\MainForm.cs:line 3028
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at SonicRetro.SonLVL.API.TileList.set_SelectedIndex(Int32 value) in E:\AutoBuild\SonLVL\SonLVLAPI\TileList.cs:line 24
+   at SonicRetro.SonLVL.API.TileList.TileList_MouseDown(Object sender, MouseEventArgs e) in E:\AutoBuild\SonLVL\SonLVLAPI\TileList.cs:line 210
+   at System.Windows.Forms.MouseEventHandler.Invoke(Object sender, MouseEventArgs e)
+   at System.Windows.Forms.Control.OnMouseDown(MouseEventArgs e)
+   at System.Windows.Forms.UserControl.OnMouseDown(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.UserControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.ArgumentOutOfRangeException: Value of '75' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at SonicRetro.SonLVL.GUI.MainForm.ChunkSelector_SelectedIndexChanged(Object sender, EventArgs e) in E:\AutoBuild\SonLVL\SonLVL\MainForm.cs:line 3028
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at SonicRetro.SonLVL.API.TileList.set_SelectedIndex(Int32 value) in E:\AutoBuild\SonLVL\SonLVLAPI\TileList.cs:line 24
+   at SonicRetro.SonLVL.GUI.MainForm.InsertChunk() in E:\AutoBuild\SonLVL\SonLVL\MainForm.cs:line 4656
+   at SonicRetro.SonLVL.GUI.MainForm.insertAfterToolStripMenuItem_Click(Object sender, EventArgs e) in E:\AutoBuild\SonLVL\SonLVL\MainForm.cs:line 5095
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.ArgumentOutOfRangeException: Value of '74' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at SonicRetro.SonLVL.GUI.MainForm.ChunkSelector_SelectedIndexChanged(Object sender, EventArgs e) in E:\AutoBuild\SonLVL\SonLVL\MainForm.cs:line 3028
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at SonicRetro.SonLVL.API.TileList.set_SelectedIndex(Int32 value) in E:\AutoBuild\SonLVL\SonLVLAPI\TileList.cs:line 24
+   at SonicRetro.SonLVL.API.TileList.TileList_MouseDown(Object sender, MouseEventArgs e) in E:\AutoBuild\SonLVL\SonLVLAPI\TileList.cs:line 210
+   at System.Windows.Forms.MouseEventHandler.Invoke(Object sender, MouseEventArgs e)
+   at System.Windows.Forms.Control.OnMouseDown(MouseEventArgs e)
+   at System.Windows.Forms.UserControl.OnMouseDown(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.UserControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.ArgumentOutOfRangeException: Value of '75' is not valid for 'Value'. 'Value' should be between 'Minimum' and 'Maximum'.
+Parameter name: Value
+   at System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   at SonicRetro.SonLVL.GUI.MainForm.ChunkSelector_SelectedIndexChanged(Object sender, EventArgs e) in E:\AutoBuild\SonLVL\SonLVL\MainForm.cs:line 3028
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at SonicRetro.SonLVL.API.TileList.set_SelectedIndex(Int32 value) in E:\AutoBuild\SonLVL\SonLVLAPI\TileList.cs:line 24
+   at SonicRetro.SonLVL.API.TileList.TileList_MouseDown(Object sender, MouseEventArgs e) in E:\AutoBuild\SonLVL\SonLVLAPI\TileList.cs:line 210
+   at System.Windows.Forms.MouseEventHandler.Invoke(Object sender, MouseEventArgs e)
+   at System.Windows.Forms.Control.OnMouseDown(MouseEventArgs e)
+   at System.Windows.Forms.UserControl.OnMouseDown(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseDown(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.UserControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
